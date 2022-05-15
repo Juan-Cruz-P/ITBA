@@ -1,38 +1,99 @@
-    <!-- PAGINA PRINCIPAL LUEGO DE LOGEAR -->
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>ITBANK</title>
-    <!-- FUENTES -->
-    <link rel="stylesheet" href="style.css"> <!-- Archivo css -->
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link rel='stylesheet' href="style.css" />
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
 
-    <ul class="lista">
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>Support</li>
-        <li>Account</li>
-    </ul>
+  <body>
 
-    <div class="Cuenta">
-        <ul>
-            <li>Primera</li>
-            <li>Segunda</li>
-        </ul>
+    <section class="hero has-background-white">
+    <div class="hero-body">
+
+        <!-- Header -->
+        <div class="container">
+            <img class="" src="image.png" style="max-width: 15rem;">
+            <h1 class="has-text-centered is-size-3 ">Cuenta #12AB</h1>
+            <h2 class="has-text-centered is-size-6 ">CBU 01012183134</h2>
+            <h1 class="has-text-centered is-size-3 has-text-weight-bold">$14000</h1>
+        </div>
+
+        <!-- Pestañas -->
+        <section class="section">
+            <div class="container">
+                <div id="tab" class="tabs">
+                    <ul>
+                    <li><a>Music</a></li>
+                    <li><a>Videos</a></li>
+                    <li><a>Documents</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+            <!-- <div class="tab">
+                <button class="tablinks">Perfil</button>
+                <button class="tablinks">Cuentas</button>
+                <button class="tablinks">Inversiones</button>
+                <button class="tablinks">Tarjetas</button>
+                <button class="tablinks">Pago de Servicios</button>
+                <button class="tablinks">Solicitar Productos</button>
+                <button class="tablinks">Cerrar Sesion</button>
+            </div> -->
+
+            <!-- Centro -->
+        <section class="section">
+            <div class="container center">
+                <div class="buttons are-large">
+                    <a id="boton" class="button is-light">Transferir</a>
+                    <a id="boton" class="button is-light">Inversiones</a>
+                    <a id="boton" class="button is-light">Cuentas</a>
+                    <a id="boton" class="button is-light">Contacto</a>
+                </div>
+            </div>
+        </section>
+
+            <!-- <div class="columns">
+
+                <div class="column">
+                    <div class="notification">
+                        <a class="is-4 center">
+                            Transferir</a></div></div>
+
+                <div class="column">
+                    <div class="notification">
+                        <a class="is-4 center">
+                            Inversiones</a></div></div>
+
+                <div class="column">
+                    <div class="notification">
+                        <a class="is-4 center">
+                            Cuenta</a></div></div>
+
+                <div class="column">
+                    <div class="notification">
+                        <a class="is-4 center">
+                            Contacto</a></div></div>
+            </div> -->
+
     </div>
-
-    
-    <header>
-        <h1></h1>
-    </header>
-    <section>
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
     </section>
-</body>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p id="extras">
+            <a href="">Términos y Condiciones del Sitio </a>|
+            <a href="">Código de Prácticas Bancarias </a>|
+            <a href="">Defensa del Consumidor </a>|
+            <a href="">Protección de Datos Personales </a>|
+            <a href="">Código de Conducta </a>
+          </p>
+        </div>
+    </footer>
+
+  </body>
 </html>

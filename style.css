@@ -1,0 +1,70 @@
+/* Direcciones */
+
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+/* Secciones */
+
+
+/* Botones 1 */
+#boton:hover {
+    color: red;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,30%);
+}
+
+/* Botones 2 */
+/* .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 1.375rem 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  .tabcontent {
+    float: left;
+    padding: 0rem 0.75rem;
+    border: 0.063rem solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 18.75rem;
+  } */
+
+
+/* Footer */
+
+footer {
+    
+    padding: 3rem;
+}
