@@ -1,19 +1,49 @@
+* {
+    color: #F3F8FC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 /* ---------------Header---------------- */
     /* Imagen */
 
-
+#logo {
+    width: 31.25rem;
+    height: auto;
+}
 
     /* Centro */
 
-h1 {}
-h4 {}
-h2 {}
+div h1 {
+    font-size: 3rem;
+}
 
+div h4{
+    font-size: 1.5rem;
+}
+
+div h2 {
+    font-size: 2rem;
+}
+
+#star {
+    width: 2.813rem;
+    height: auto;
+}
     /* Derecha */
 
-img {}
-h3 {}
-h5 {}
+#perfil {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+div h3 {
+    font-size: 1.8rem;
+}
+
+div h5 {
+    font-size: 1.2rem;
+}
 
 /* --------------Front----------------- */
     /* Izquierda */
