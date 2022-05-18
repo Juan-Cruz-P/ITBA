@@ -1,38 +1,83 @@
-    <!-- PAGINA PRINCIPAL LUEGO DE LOGEAR -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
-    <title>ITBANK</title>
-    <!-- FUENTES -->
-    <link rel="stylesheet" href="style.css"> <!-- Archivo css -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Imports -->
+
+        <!-- Files -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="./sass/reducido.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700&display=swap" rel="stylesheet"> 
+
+     <title>ITBANK Main</title>
+
 </head>
 <body>
+    <!-- NavBar: no queda en resultado final, solo testeo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="/images/logo.png" width="300" height="auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
 
-    <ul class="lista">
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>Support</li>
-        <li>Account</li>
-    </ul>
-
-    <div class="Cuenta">
-        <ul>
-            <li>Primera</li>
-            <li>Segunda</li>
-        </ul>
+    <!-- Header -->
+    <div class="row" style="background-color: #3E8FD1; color: #F3F8FC;">
+        <!-- Izquierda -->
+        <div class="col-md-2 border">
+            <img src="/images/logo.png" width="500" height="auto">
+        </div>
+        <!-- Derecha -->
+        <div class="col-8 text-center border">
+            <h1>Cuenta</h1>
+            <h4>CBU 124312634123872</h4>
+            <h2>$13143545</h2>
+        </div>
+        <!-- Centro -->
+        <div class="col-2 text-start border">
+            <a class="" href="#">Usurario</a>
+        </div>
     </div>
 
-    
-    <header>
-        <h1></h1>
-    </header>
-    <section>
-        <article>
-            <h2></h2>
-            <p></p>
-        </article>
-    </section>
+    <!-- Medio -->
+    <div class="row" style="background-color: green;">
+        <!-- Izquierda -->
+        <div class="col-2 text-center border">
+            <ul class="list-group list-group-flush" style="font-size: 1.5rem;">
+                <li class="list-group-item">Seccion</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </div>
+        <!-- Derecha -->
+        <div class="col-9 text-center border" style="background-color: gray;">
+        </div>
+        <!-- Centro -->
+        <div class="col-1 text-center border">
+            
+        </div>
+    </div>
 </body>
 </html>
