@@ -1,0 +1,49 @@
+/* ---------------Header---------------- */
+    /* Imagen */
+
+
+
+    /* Centro */
+
+h1 {}
+h4 {}
+h2 {}
+
+    /* Derecha */
+
+img {}
+h3 {}
+h5 {}
+
+/* --------------Front----------------- */
+    /* Izquierda */
+
+    /* Centro Izq */
+
+    /* Centro Cen */
+
+    /* Centro Der */
+
+    /* Derecha */
+
+
+/* ---------------Footer---------------- */
+    /* Links */
+
+    /* No puedo hacer que el hover no sea azul */
+
+a:link, a:visited {
+    color: #F3F8FC;
+    transition: color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    text-decoration: underline;
+    color: #F3F8FC;
+  }
+
+/* -------------Extras------------------ */
+  
