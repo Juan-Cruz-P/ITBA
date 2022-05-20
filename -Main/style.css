@@ -1,0 +1,66 @@
+.vermas {
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vermas:link {
+    color: beige;
+}
+
+.vermas:hover {
+    color: black
+}
+
+.vermas:active {
+    color: beige;
+}
+
+.vermas:visited {
+    color: beige;
+}
+
+.cajader {
+    background-color: #3E8FD1;
+    height: 100%;
+    width: 60px;
+    float: right;
+    border-radius: 10px;
+    border: solid 3px;
+    position: relative;
+}
+
+.cajader-medio {
+    background-color: #3E8FD1;
+    float: right;
+    height: 110px;
+    width: 115px;
+    position: relative;
+    top: 40%;
+    right: 30px;
+    border-radius: 10px;
+    border: solid;
+    border-right: 1px;
+}
+
+.ayuda {
+    font-size: large;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ayuda:link {
+    color: beige;
+}
+
+.ayuda:hover {
+    color: black
+}
+
+.ayuda:active {
+    color: beige;
+}
+
+.ayuda:visited {
+    color: beige;
+}

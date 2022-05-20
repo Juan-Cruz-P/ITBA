@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -8,37 +9,38 @@
 
     <!-- Imports -->
 
-        <!-- Files -->
+    <!-- Files -->
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="./sass/reducido.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-        <!-- Fonts -->
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700&display=swap" rel="stylesheet">
 
-     <title>ITBANK Main</title>
+    <title>ITBANK Main</title>
 
 </head>
+
 <body>
     <!-- NavBar: no queda en resultado final, solo testeo -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img src="/images/logo.png" width="300" height="auto">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo.png" width="300" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
 
     <!-- Header -->
@@ -49,8 +51,7 @@
         </div>
         <!-- Derecha -->
         <div class="col-8 text-center border">
-            <h1> <img src="/images/star.png" width="45rem" height="auto">
-                Cuenta #12AB</h1>
+            <h1> <img src="/images/star.png" width="45rem" height="auto"> Cuenta #12AB</h1>
             <h4>CBU 010000235548894</h4>
             <h2>$13143545</h2>
         </div>
@@ -61,46 +62,82 @@
     </div>
 
     <!-- Front -->
-    <div class="row" style="background-color: green;">
+    <div class="row" style="background-color: gray;">
         <!-- Izquierda -->
+
         <div class="col-2 text-center border">
-            <ul class="list-group list-group-flush" style="font-size: 1.5rem;">
-                <li class="list-group-item">Buscador</li>
-                <li class="list-group-item">Seccion</li>
-                <li class="list-group-item">Seccion</li>
-                <li class="list-group-item">Seccion</li>
-                <li class="list-group-item">Seccion</li>
+
+            <nav class="navbar" style="background-color: #3E8FD1; width: 307px;">
+                <form class="container-fluid">
+                    <div class="input-group ">
+                        <span class="input-group-text " style="background-color:rgb(103, 179, 241); border-color: #3E8FD1;" id="basic-addon1 ">
+                                <!-- Ícono lupa -->
+                            <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-search " viewBox="0 0 16 16 ">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z "/>
+                          </svg>
+
+                        </span>
+                        <input type="text " class="form-control " style="background-color:rgb(103, 179, 241); border-color: #3E8FD1;" placeholder=" " aria-label="a " aria-describedby="basic-addon1 ">
+                    </div>
+                </form>
+            </nav>
+            <!-- Lado Izq -->
+            <ul class="list-group list-group-flush " style="font-size: 1.5rem; width: 307px;">
+                <li class="list-group-item" style="background-color: #3E8FD1; color: white; padding: 2rem; "><button type="button " class="btn btn-primary " style="font-size: 1.5rem; background-color: #3E8FD1; border-color: #3E8FD1; ">Sección></button></li>
+                <li class="list-group-item " style="background-color: #3E8FD1; color: white; padding: 1.8rem "><button type="button " class="btn btn-primary " style="font-size: 1.5rem; background-color: #3E8FD1; border-color: #3E8FD1; ">Sección></button></li>
+                <li class="list-group-item " style="background-color: #3E8FD1; color: white; padding: 1.8rem "><button type="button " class="btn btn-primary " style="font-size: 1.5rem; background-color: #3E8FD1; border-color: #3E8FD1; ">Sección></button></li>
+                <li class="list-group-item " style="background-color: #3E8FD1; color: white; padding: 1.8rem "><button type="button " class="btn btn-primary " style="font-size: 1.5rem; background-color: #3E8FD1; border-color: #3E8FD1; ">Sección></button></li>
+                <li class="list-group-item " style="background-color: #3E8FD1; color: white; padding: 1.8rem "><button type="button " class="btn btn-primary " style="font-size: 1.5rem; background-color: #3E8FD1; border-color: #3E8FD1; ">Sección></button></li>
+                <li class="list-group-item" style="background-color: #3E8FD1 ; color: white; ">
+                    <a class="ayuda" href="https://www.google.com/"> <img src="/images/interrogacion.png" style="width: 5rem;"><br>Ayuda</a>
+                </li>
             </ul>
         </div>
-        
+
         <!-- Centro Izq-->
-        <div class="col-3 text-center border" style="background-color: gray;">
+        <div class="col-3 text-center border " style="background-color: gray; ">
         </div>
 
         <!-- Centro Cent-->
-        <div class="col-3 text-center border" style="background-color: gray;">
+        <div class="col-3 text-center border " style="background-color: gray; ">
         </div>
 
         <!-- Centro Der-->
-        <div class="col-3 text-center border" style="background-color: gray;">
+        <div class="col-3 text-center border " style="background-color: gray; ">
         </div>
 
         <!-- Derecha -->
         <div class="col-1 text-center border">
+            <!-- Lado der -->
+            <div class="cajader">
+                <div class="cajader-medio">
+                    <a>
+                        <br>
+                        <a class="vermas" href="www.google.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                              </svg>
+                            <br>VER MÁS
+                        </a>
+                    </a>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <!-- Footer -->
-    <div class="row" style="background-color: #3E8FD1; color: #F3F8FC;">
-        <div class="col-12 text-center border">
-            <p id="extras">
-                <a href="#">Términos y Condiciones del Sitio </a>|
-                <a href="#">Código de Prácticas Bancarias </a>|
-                <a href="#">Defensa del Consumidor </a>|
-                <a href="#">Protección de Datos Personales </a>|
-                <a href="#">Código de Conducta </a>
-              </p>
+    <div class="row " style="background-color: #3E8FD1; color: #F3F8FC; ">
+        <div class="col-12 text-center border ">
+            <p id="extras ">
+                <a href="# ">Términos y Condiciones del Sitio </a>|
+                <a href="# ">Código de Prácticas Bancarias </a>|
+                <a href="# ">Defensa del Consumidor </a>|
+                <a href="# ">Protección de Datos Personales </a>|
+                <a href="# ">Código de Conducta </a>
+            </p>
         </div>
     </div>
 </body>
+
 </html>
