@@ -4,45 +4,186 @@
 }
 
 
+
 /* ---------------Header---------------- */
     /* Imagen */
 
+/* #header {
+    height: 5rem;   Problemas con la altura
+} */
+
 #logo {
-    width: 31.25rem;
+    width: 15rem;
     height: auto;
+    background: yellow;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+
+    #logo {
+        width: 10rem;
+        height: auto;
+        background: red;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    
+    #logo {
+        width: 10rem;
+        height: auto;
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #logo {
+        width: 2.7345rem;
+        height: auto;
+        background: green;
+    }
 }
 
     /* Centro */
 
 div h1 {
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 div h4{
-    font-size: 1.5rem;
+    font-size: 0.75rem;
 }
 
 div h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #star {
-    width: 2.813rem;
+    width: 0.75rem;
     height: auto;
 }
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    
+    div h1 {
+    font-size: 0.75rem;
+}
+
+div h4{
+    font-size: 0.5rem;
+}
+
+div h2 {
+    font-size: 1rem;
+}
+
+#star {
+    width: 0.75rem;
+    height: auto;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    
+    div h1 {
+        font-size: 0.75rem;
+    }
+    
+    div h4{
+        font-size: 0.5rem;
+    }
+    
+    div h2 {
+        font-size: 1rem;
+    }
+    
+    #star {
+        width: 0.75rem;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    div h1 {
+        font-size: 0.125rem;
+    }
+    
+    div h4{
+        font-size: 0.09375rem;
+    }
+    
+    div h2 {
+        font-size:  0.1875rem;
+    }
+    
+    #star {
+        width: 0.09375rem;
+        height: auto;
+    }
+}
+
     /* Derecha */
 
 #perfil {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 div h3 {
-    font-size: 1.8rem;
+    font-size: 0.98rem;
 }
 
 div h5 {
-    font-size: 1.2rem;
+    font-size: 0.6rem;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    #perfil {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    div h3 {
+        font-size: 0.7rem;
+    }
+    
+    div h5 {
+        font-size: 0.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    #perfil {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    div h3 {
+        font-size: 0.7rem;
+    }
+    
+    div h5 {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #perfil {
+        width: 0.78125rem;
+        height: 0.78125rem;
+    }
+    
+    div h3 {
+        font-size: 0.245rem;
+    }
+    
+    div h5 {
+        font-size: 0.15rem;
+    }
 }
 
 /* --------------Front----------------- */
@@ -74,6 +215,29 @@ a:hover, a:active {
     text-decoration: underline;
     color: #F3F8FC;
   }
+
+#footer {
+    font-size: 0.75rem;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    #footer {
+        font-size: 0.5rem;
+        margin: 0.7rem;
+    }    
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    #footer {
+        font-size: 0.5rem;
+        margin: 0.7rem;
+    }    
+}
+
+@media screen and (max-width: 480px) {
+
+}
 
 /* -------------Extras------------------ */
   
