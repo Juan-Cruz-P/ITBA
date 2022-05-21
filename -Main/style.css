@@ -1,3 +1,47 @@
+/* Izquierda */
+
+.ayuda {
+    font-size: large;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: beige;
+}
+
+a:hover {
+    color: black
+}
+
+a:active {
+    color: beige;
+}
+
+a:visited {
+    color: beige;
+}
+
+#lista1 {
+    background-color: #3E8FD1;
+    color: white;
+    padding: 2rem;
+}
+
+#listaAyuda {
+    background-color: #3E8FD1;
+    color: white;
+}
+
+#lista1Boton {
+    font-size: 1.5rem;
+    background-color: #3E8FD1;
+    border-color: #3E8FD1;
+}
+
+
+/* Derecha */
+
 .vermas {
     width: 100px;
     text-decoration: none;
@@ -5,7 +49,7 @@
 }
 
 .vermas:link {
-    color: beige;
+    color: rgb(255, 255, 255);
 }
 
 .vermas:hover {
@@ -13,10 +57,6 @@
 }
 
 .vermas:active {
-    color: beige;
-}
-
-.vermas:visited {
     color: beige;
 }
 
@@ -41,26 +81,4 @@
     border-radius: 10px;
     border: solid;
     border-right: 1px;
-}
-
-.ayuda {
-    font-size: large;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.ayuda:link {
-    color: beige;
-}
-
-.ayuda:hover {
-    color: black
-}
-
-.ayuda:active {
-    color: beige;
-}
-
-.ayuda:visited {
-    color: beige;
 }
