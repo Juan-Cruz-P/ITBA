@@ -21,7 +21,7 @@
 @media screen and (min-width: 780px) and (max-width: 1024px) {
 
     #logo {
-        width: 10rem;
+        width: 13rem;
         height: auto;
         background: red;
     }
@@ -30,7 +30,7 @@
 @media screen and (min-width: 480px) and (max-width: 780px) {
     
     #logo {
-        width: 10rem;
+        width: 12.5rem;
         height: auto;
         background: blue;
     }
@@ -56,7 +56,7 @@ div h4{
 }
 
 div h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #star {
@@ -67,21 +67,21 @@ div h2 {
 @media screen and (min-width: 780px) and (max-width: 1024px) {
     
     div h1 {
-    font-size: 0.75rem;
-}
+    font-size: 0.95rem;
+    }
 
-div h4{
-    font-size: 0.5rem;
-}
+    div h4{
+        font-size: 0.7rem;
+    }
 
-div h2 {
-    font-size: 1rem;
-}
+    div h2 {
+        font-size: 1rem;
+    }
 
-#star {
-    width: 0.75rem;
-    height: auto;
-}
+    #star {
+        width: 0.75rem;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 780px) {

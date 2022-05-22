@@ -1,0 +1,23 @@
+{
+  "name": "itba",
+  "version": "1.0.0",
+  "description": "Aqui se desarrolla el modelado de la aplicacion de Home Banking para la compania ITBANK.\r La plataforma se encuentra orientada a personas fisicas (no juridicas). Esto debe tenerse en cuenta a la hora de ver la jerarquia de las opciones en nuestra pagina principal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-Cruz-P/ITBA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juan-Cruz-P/ITBA/issues"
+  },
+  "homepage": "https://github.com/Juan-Cruz-P/ITBA#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
