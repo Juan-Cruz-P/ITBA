@@ -12,6 +12,11 @@
 
     <title>Bienvenido al ITBANK</title>
     <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 
@@ -19,10 +24,11 @@
 
     <!--NavBar-->
     <div class="nav-container" style="padding:0%">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding:0%;"> <!--...ver color...-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding:0%;">
+            <!--...ver color...-->
             <div class="row" style="margin:0%">
 
-                <!--Logotipo-->  
+                <!--Logotipo-->
                 <div class="col-8">
                     <div class="navbar-brand">
                         <img src="../-Main/images/logo.png" class="navbar-brand img-responsive" style="width:22.5%">
@@ -30,7 +36,7 @@
                 </div>
 
                 <!--Opciones a la derecha-->
-                    <!--...PENDIENTE: Verificar tipografías, modificar tamaño de la letra (responsiveness), revisar relevancia de opciones...-->
+                <!--...PENDIENTE: Verificar tipografías, modificar tamaño de la letra (responsiveness), revisar relevancia de opciones...-->
                 <div class="col-4">
                     <div class="container" style="margin:5%">
                         <ul class="nav justify-content-right">
@@ -39,7 +45,7 @@
                             <li class="nav-item"><a class="nav-link" href="#">Ayuda</a></li>
                         </ul>
                     </div>
-                </div> 
+                </div>
 
             </div>
         </nav>
@@ -50,78 +56,79 @@
 
     <!--Middle-->
     <div class="mid">
-    <div class="container-fluid">
-    <div class="row">
+        <div class="container-fluid">
+            <div class="row">
 
-        <!--Backround-->
-        <div class="col-8" style="padding:0%;">
-            <div class="card border-light" style="margin:0%">
-                <img src="./images/fondo.jpg" class="img-fluid">
-                <br>
-                <div class="card-img-overlay">
-                    <h1 class="fw-light text-white">¡Hola! Te damos la bienvenida</h1>
-                    <h2 class="fs-4 fw-light">¡Gracias por elegirnos!</h2>
-                </div>
-            </div>
-        </div>
-
-        <!--Login Menu-->
-        <div class="col-4">
-            <br>
-            <h3 class="text-center">Ingrese sus datos</h3>
-            <hr class="border-primary opacity-20">
-            <form style="margin:5%">
-
-                <!--Receive Input-->
-                <div class="mb-3">
-                    <label for="inputEmail" class="form-label">Dirección de correo electrónico</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-                </div>
-
-                <div class="mb-3">
-                    <label for="inputPassword" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="inputPassword">
-                </div>
-
-                <div class="mb-3">
-                    <label for="inputDNI" class="form-label">DNI</label>
-                    <input type="dni" class="form-control" id="DNI" id="inputDNI">
-                </div>
-
-                <div class="form-text text-center">Nunca compartiremos tu informacion personal con nadie.
-                    <a href="#">Mas informacion.</a>
-                </div>
-                <br>
-
-                <!--Other options-->
-                <div class="row">
-                    <div class="col-6">
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="rememberInput">
-                            <label class="form-check-label" for="rememberInput">Recordar datos</label>
+                <!--Backround-->
+                <div class="col-8" style="padding:0%;">
+                    <div class="card border-light" style="margin:0%">
+                        <img src="./images/fondo.jpg" class="img-fluid">
+                        <br>
+                        <div class="card-img-overlay">
+                            <h1 class="fw-light text-white">¡Hola! Te damos la bienvenida</h1>
+                            <h2 class="fs-4 fw-light">¡Gracias por elegirnos!</h2>
                         </div>
                     </div>
-                    <div class="col-6 text-center" style="padding:0%;">
-                        <a class="fs-6" link="resetPassword" href="#">¿Olvidaste tu contraseña?</a>
-                    </div>
                 </div>
 
-                <!--Buttons-->
-                <div class="row">
-                    <div class="d-grid gap-2 col-6 mx-auto" style="margin-top:5%;">
-                        <button class="btn btn-primary" type="button">Iniciar Sesion</button>
-                    </div>
-                    <div class="d-grid gap-2 col-6 mx-auto" style="margin-top:5%;">
-                        <button class="btn btn-primary" type="button">Crear cuenta</button>
-                    </div>
+                <!--Login Menu-->
+                <div class="col-4">
+                    <br>
+                    <h3 class="text-center">Ingrese sus datos</h3>
+                    <hr class="border-primary opacity-20">
+                    <form style="margin:5%">
+
+                        <!--Receive Input-->
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Dirección de correo electrónico</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputPassword" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputDNI" class="form-label">DNI</label>
+                            <input type="dni" class="form-control" id="DNI" id="inputDNI">
+                        </div>
+
+                        <div class="form-text text-center">Nunca compartiremos tu informacion personal con nadie.
+                            <a href="#">Mas informacion.</a>
+                        </div>
+                        <br>
+
+                        <!--Other options-->
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberInput">
+                                    <label class="form-check-label" for="rememberInput">Recordar datos</label>
+                                </div>
+                            </div>
+                            <div class="col-6 text-center" style="padding:0%;">
+                                <a class="fs-6" link="resetPassword" href="#">¿Olvidaste tu contraseña?</a>
+                            </div>
+                        </div>
+
+                        <!--Buttons-->
+                        <div class="row">
+                            <div class="d-grid gap-2 col-6 mx-auto" style="margin-top:5%;">
+                                <button class="btn btn-primary" type="button">Iniciar Sesion</button>
+                            </div>
+                            <div class="d-grid gap-2 col-6 mx-auto" style="margin-top:5%;">
+                                <button class="btn btn-primary" type="button">Crear cuenta</button>
+                            </div>
+                        </div>
+
+                    </form>
                 </div>
 
-            </form>
+            </div>
         </div>
-
-    </div>
-    </div>
     </div>
 
 </body>
+
 </html>

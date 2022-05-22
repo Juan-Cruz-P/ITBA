@@ -1,24 +1,28 @@
 * {
     color: #F3F8FC;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
-    --mainColor : #ffffff;
-    --secondaryColor : #3E8FD1;
-    --bgColor : #a6a6a6;
-    --black : #000000;
-    --white : #ffffff;
-    --lightBlue : rgb(103, 179, 241);
+    --mainColor: #ffffff;
+    --secondaryColor: #3E8FD1;
+    --bgColor: #a6a6a6;
+    --black: #000000;
+    --white: #ffffff;
+    --lightBlue: rgb(103, 179, 241);
 }
 
 #background {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 50%, rgba(194,194,194,1) 100%);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(219, 219, 219, 1) 50%, rgba(194, 194, 194, 1) 100%);
 }
 
+
 /* ---------------Header---------------- */
-    /* Imagen */
+
+
+/* Imagen */
+
 
 /* #header {
     height: 5rem;   Problemas con la altura
@@ -29,6 +33,7 @@
     height: auto;
     /* background: yellow; */
 }
+
 
 /* @media screen and (min-width: 780px) and (max-width: 1024px) {
 
@@ -57,13 +62,14 @@
     }
 } */
 
-    /* Centro */
+
+/* Centro */
 
 div h1 {
     font-size: 2rem;
 }
 
-div h4{
+div h4 {
     font-size: 1.15rem;
 }
 
@@ -75,6 +81,7 @@ div h2 {
     width: 1.5rem;
     height: auto;
 }
+
 
 /* @media screen and (min-width: 780px) and (max-width: 1024px) {
     
@@ -137,7 +144,8 @@ div h2 {
     }
 } */
 
-    /* Derecha */
+
+/* Derecha */
 
 #perfil {
     width: 4rem;
@@ -151,6 +159,7 @@ div h3 {
 div h5 {
     font-size: 1rem;
 }
+
 
 /* @media screen and (min-width: 780px) and (max-width: 1024px) {
     #perfil {
@@ -198,23 +207,24 @@ div h5 {
     }
 } */
 
+
 /* --------------Front----------------- */
+
 
 /* ---------Costados-------- */
 
 #seccion {
-    background-color: var(--secondaryColor); 
-    color: white; 
+    background-color: var(--secondaryColor);
+    color: white;
     padding: 2rem;
-    border-color: var(--secondaryColor); 
-}
-
-#botn {
-    font-size: 1.5rem; 
-    background-color: var(--secondaryColor); 
     border-color: var(--secondaryColor);
 }
 
+#botn {
+    font-size: 1.5rem;
+    background-color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+}
 
 .cajader {
     background-color: var(--secondaryColor);
@@ -239,8 +249,12 @@ div h5 {
     border-right: 1px;
 }
 
+
 /* ---------Centro-------- */
+
+
 /* Cards */
+
 #cards {
     background-color: var(--secondaryColor);
     margin: 2rem;
@@ -254,11 +268,14 @@ div h5 {
     margin: 1.1rem;
 }
 
+
 /* Top left card */
-#card1Text, #card1Number {
+
+#card1Text,
+#card1Number {
     margin-top: 0.9rem;
+    margin-bottom: 0.10rem;
     color: var(--black);
-    
 }
 
 #card1Text {
@@ -272,7 +289,9 @@ div h5 {
     text-align: end;
 }
 
+
 /* Top right card */
+
 #card2Img {
     width: 13rem;
 }
@@ -291,20 +310,23 @@ div h5 {
     height: 12.5rem;
 }
 
+
 /* Bottom card */
+
 #card3Title {
     color: var(--black);
     border: .1rem solid var(--black);
-    font-size: 1rem;  
+    font-size: 1rem;
     background-color: var(--mainColor);
 }
 
 #card3Row {
     margin-left: .3rem;
-    
 }
 
-#card3Date, #card3Transfer, #card3Number {
+#card3Date,
+#card3Transfer,
+#card3Number {
     color: var(--black);
 }
 
@@ -314,7 +336,7 @@ div h5 {
     margin-top: .1rem;
 }
 
-#card3Transfer{
+#card3Transfer {
     font-size: 1.75rem;
     margin-top: .6rem
 }
@@ -322,7 +344,6 @@ div h5 {
 #card3Number {
     margin-top: 1rem;
     font-size: 1.4rem;
-    
 }
 
 #card3Border {
@@ -332,28 +353,35 @@ div h5 {
     background-color: var(--mainColor);
 }
 
+
 /* ---------------Footer---------------- */
-    /* Links */
 
-    /* No puedo hacer que el hover no sea azul */
 
-a:link, a:visited {
+/* Links */
+
+
+/* No puedo hacer que el hover no sea azul */
+
+a:link,
+a:visited {
     color: #F3F8FC;
     transition: color 0.3s ease;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-a:hover, a:active {
+}
+
+a:hover,
+a:active {
     text-decoration: underline;
     color: #F3F8FC;
-  }
+}
 
 #footer {
     font-size: 1rem;
     margin: 1rem;
 }
+
 
 /* @media screen and (min-width: 780px) and (max-width: 1024px) {
     #footer {
@@ -373,5 +401,5 @@ a:hover, a:active {
 
 } */
 
+
 /* -------------Extras------------------ */
-  

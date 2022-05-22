@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -8,21 +9,22 @@
 
     <!-- Imports -->
 
-        <!-- Files -->
+    <!-- Files -->
     <link rel="stylesheet" href="./sass/custom.css">
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="./sass/reducido.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-        <!-- Fonts -->
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-     <title>ITBANK Main</title>
-     <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+    <title>ITBANK Main</title>
+    <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
 
 </head>
+
 <body style="background: var(--secondaryColor);">
     <!-- Header -->
 
@@ -34,8 +36,7 @@
         <!-- Centro -->
 
         <div class="col-lg-7 col-md-5 col-sm-5 col-xs-1 text-center ">
-            <h1> <img id="star" src="./images/star.png">
-                Cuenta #12AB</h1>
+            <h1> <img id="star" src="./images/star.png"> Cuenta #12AB</h1>
             <h4>CBU 010000235548894</h4>
             <h2>$ 123.456</h2>
         </div>
@@ -43,8 +44,8 @@
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-1 text-start d-flex " style="padding: 0.5rem;">
             <img id="perfil" src="./images/usuario.jpg" class="border border-primary border-3 rounded-circle">
             <div class="m-2 ps-0">
-            <h3><a href="#" >Pepe Roberto</a></h3>
-            <h5><a href="#" >Cerrar Sesion</a></h5>
+                <h3><a href="#">Pepe Roberto</a></h3>
+                <h5><a href="#">Cerrar Sesion</a></h5>
             </div>
         </div>
     </div>
@@ -73,11 +74,11 @@
 
             <!-- Secciones-->
             <ul class="list-group list-group-flush " style="font-size: 1.5rem; width: 307px;">
-                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
-                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
-                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
-                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
-                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Agenda ></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Seguros ></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Pagos ></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Recargas ></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Inversiones ></button></li>
                 <li id="seccion" class="list-group-item">
                     <a class="ayuda" href="https://www.google.com/"> <img src="./images/interrogacion.png" style="width: 5rem;"><br>Ayuda</a>
                 </li>
@@ -91,156 +92,163 @@
                 <div class="col-6">
                     <article class="card" id="cards">
                         <div class="card-body">
-                            
+
                             <!-- Primer Cuenta -->
                             <div>
                                 <div>
                                     <div class="row" id="card1Row">
-                                    <div class="col-8"><p id="card1Text"><img id="star" src="./images/star.png"> Cuenta Corriente #12AB</p></div>
-                                    <div class="col-4"><p id="card1Number">$ 123.456</p></div>
-                                </div>
-                            </div>
-
-                            <!-- Segunda Cuenta -->
-                            <div>
-                                <div class="row" id="card1Row">
-                                    <div class="col-8">
-                                        <p id="card1Text"><img id="star" src="./images/star0.png"> Cuenta Corriente #34CD</p>
-                                        <!-- <div id="card1Vl"></div>-->
+                                        <div class="col-8">
+                                            <p id="card1Text"><img id="star" src="./images/star.png"> Cuenta Corriente #12AB</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p id="card1Number">$ 123.456</p>
+                                        </div>
                                     </div>
-                                    <div class="col-4"><p id="card1Number">$ 789.101</p></div>
+                                </div>
+
+                                <!-- Segunda Cuenta -->
+                                <div>
+                                    <div class="row" id="card1Row">
+                                        <div class="col-8">
+                                            <p id="card1Text"><img id="star" src="./images/star0.png"> Cuenta Corriente #34CD</p>
+                                            <!-- <div id="card1Vl"></div>-->
+                                        </div>
+                                        <div class="col-4">
+                                            <p id="card1Number">$ 789.101</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </article>
+                    </div>
+
+                    <!-- Tarjetas -->
+                    <div class="col-6">
+                        <article class="card" id="cards">
+                            <div class="card-body">
+                                <div>
+                                    <div class="row">
+                                        <div class="d-flex">
+
+                                            <!-- Tarjeta 1 -->
+                                            <div class="col-6">
+                                                <p id="card2Title">Debit Card</p>
+                                                <img src="./images/credit card.png" alt="Credit card" id="card2Img">
+                                            </div>
+
+                                            <!-- Divisor -->
+                                            <div id="card2Vl"> </div>
+
+                                            <!-- Tarjeta 2 -->
+                                            <div class="col-6">
+                                                <p id="card2Title">Credit Card</p>
+                                                <img src="./images/credit card.png" alt="Credit card" id="card2Img">
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                        </div>
-                    </article>
+                        </article>
+                    </div>
                 </div>
-            
-                <!-- Tarjetas -->
-                <div class="col-6">
-                    <article class="card" id="cards">
-                        <div class="card-body">
-                        <div>
-                            <div class="row">
-                                <div class="d-flex">
 
-                                    <!-- Tarjeta 1 -->
-                                    <div class="col-6">
-                                        <p id="card2Title">Debit Card</p>
-                                        <img src="./images/credit card.png" alt="Credit card" id="card2Img">   
+                <div class="row">
+                    <!-- Centrado de cuadro -->
+                    <div class="col-3"></div>
+
+                    <!-- Transferencias -->
+                    <div class="col-6">
+                        <article class="card" id="cards">
+                            <div class="card-body">
+                                <div>
+
+                                    <!-- Cuadro Ultimos Movimientos -->
+                                    <div>
+                                        <div class="col-4">
+                                            <div class="row" id="card3Row">
+                                                <p id="card3Title"><img id="star" src="./images/star.png" style="width:1rem; height:auto;">Ultimos movimientos</p>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <!-- Divisor -->
-                                    <div id="card2Vl"> </div>
+                                    <!-- Transferencia 1 -->
+                                    <div>
+                                        <div class="row" id="card3Border">
+                                            <div class="col-2">
+                                                <p class id="card3Date">16/05</p>
+                                            </div>
 
-                                    <!-- Tarjeta 2 -->
-                                    <div class="col-6">
-                                        <p id="card2Title">Credit Card</p>
-                                        <img src="./images/credit card.png" alt="Credit card" id="card2Img">
+                                            <div class="col-6">
+                                                <p class id="card3Transfer">Transferencia</p>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <p class id="card3Number">$ 123.456</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Transferencia 2 -->
+                                    <div>
+                                        <div class="row" id="card3Border">
+                                            <div class="col-2">
+                                                <p class id="card3Date">17/06</p>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <p class id="card3Transfer">Transferencia</p>
+                                            </div>
+
+                                            <div class="col-4">
+                                                <p class id="card3Number">$ 789.101</p>
+                                            </div>
+                                        </div>
                                     </div>
 
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                    </article>
+                        </article>
+                    </div>
+                    <div class="col-3"></div>
                 </div>
             </div>
 
-            <div class="row">
-                <!-- Centrado de cuadro -->
-                <div class="col-3"></div>
-
-                <!-- Transferencias -->
-                <div class="col-6">
-                    <article class="card" id="cards">
-                        <div class="card-body">
-                            <div>
-
-                                <!-- Cuadro Ultimos Movimientos -->
-                                <div>
-                                    <div class="col-4">
-                                    <div class="row" id="card3Row">
-                                        <p id="card3Title"><img id="star" src="./images/star.png" style="width:1rem; height:auto;">Ultimos movimientos</p>
-                                    </div>  
-                                    </div>
-                                </div>
-
-                                <!-- Transferencia 1 -->
-                                <div>
-                                    <div class="row" id="card3Border">
-                                        <div class="col-2">
-                                            <p class id="card3Date">16/05</p>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <p class id="card3Transfer">Transferencia</p>                                 
-                                        </div>
-
-                                        <div class="col-4">
-                                            <p class id="card3Number">$ 123.456</p>     
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- Transferencia 2 -->
-                                <div>
-                                    <div class="row" id="card3Border">
-                                        <div class="col-2">
-                                            <p class id="card3Date">17/06</p>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <p class id="card3Transfer">Transferencia</p>                                 
-                                        </div>
-
-                                        <div class="col-4">
-                                            <p class id="card3Number">$ 789.101</p>     
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-3"></div>
-            </div>
-        </div>
-
-        <!-- Derecha -->
-        <div class="col-1 text-center ">
-            <div class="cajader">
-            <div class="cajader-medio">
-                <a>
-                    <br>
-                    <a class="vermas" href="https://www.google.com/">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+            <!-- Derecha -->
+            <div class="col-1 text-center ">
+                <div class="cajader">
+                    <div class="cajader-medio">
+                        <a>
+                            <br>
+                            <a class="vermas" href="https://www.google.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
                         </svg>
-                        <!-- Revisar br, sintaxis extraña -->
-                        <br>VER MÁS
-                    </a>
-                </a>
+                                <!-- Revisar br, sintaxis extraña -->
+                                <br>VER MÁS
+                            </a>
+                        </a>
+                    </div>
+                </div>
             </div>
-            </div>
+
         </div>
 
-    </div>
+        <!-- Footer -->
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 ">Términos y Condiciones del Sitio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 ">Código de Prácticas Bancarias</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 ">Defensa del Consumidor</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 ">Protección de Datos Personales</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 ">Código de Conducta</a></li>
+                </ul>
+                <p class="text-center">© 2022 ITBANK</p>
+            </footer>
+        </div>
 
-    <!-- Footer -->
-    <div class="container">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 ">Términos y Condiciones del Sitio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 ">Código de Prácticas Bancarias</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 ">Defensa del Consumidor</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 ">Protección de Datos Personales</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 ">Código de Conducta</a></li>
-          </ul>
-          <p class="text-center">© 2022 ITBANK</p>
-        </footer>
-      </div>
-    
 </body>
+
 </html>
