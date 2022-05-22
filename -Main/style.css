@@ -3,7 +3,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+:root {
+    --mainColor : #ffffff;
+    --secondaryColor : #3E8FD1;
+    --bgColor : #a6a6a6;
+    --black : #000000;
+    --white : #ffffff;
+    --lightBlue : rgb(103, 179, 241);
+}
 
+#background {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 50%, rgba(194,194,194,1) 100%);
+}
 
 /* ---------------Header---------------- */
     /* Imagen */
@@ -13,12 +25,12 @@
 } */
 
 #logo {
-    width: 15rem;
+    width: 20rem;
     height: auto;
-    background: yellow;
+    /* background: yellow; */
 }
 
-@media screen and (min-width: 780px) and (max-width: 1024px) {
+/* @media screen and (min-width: 780px) and (max-width: 1024px) {
 
     #logo {
         width: 13rem;
@@ -43,28 +55,28 @@
         height: auto;
         background: green;
     }
-}
+} */
 
     /* Centro */
 
 div h1 {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 div h4{
-    font-size: 0.75rem;
+    font-size: 1.15rem;
 }
 
 div h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 #star {
-    width: 0.75rem;
+    width: 1.5rem;
     height: auto;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1024px) {
+/* @media screen and (min-width: 780px) and (max-width: 1024px) {
     
     div h1 {
     font-size: 0.95rem;
@@ -123,24 +135,24 @@ div h2 {
         width: 0.09375rem;
         height: auto;
     }
-}
+} */
 
     /* Derecha */
 
 #perfil {
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 div h3 {
-    font-size: 0.98rem;
+    font-size: 1.5rem;
 }
 
 div h5 {
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1024px) {
+/* @media screen and (min-width: 780px) and (max-width: 1024px) {
     #perfil {
         width: 2rem;
         height: 2rem;
@@ -184,19 +196,184 @@ div h5 {
     div h5 {
         font-size: 0.15rem;
     }
-}
+} */
 
 /* --------------Front----------------- */
-    /* Izquierda */
 
-    /* Centro Izq */
+/* ---------Costados-------- */
 
-    /* Centro Cen */
+#seccion {
+    background-color: var(--secondaryColor); 
+    color: white; 
+    padding: 2rem;
+    border-color: var(--secondaryColor); 
+}
 
-    /* Centro Der */
+#botn {
+    font-size: 1.5rem; 
+    background-color: var(--secondaryColor); 
+    border-color: var(--secondaryColor);
+}
 
-    /* Derecha */
+.vermas {
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.vermas:link {
+    color: beige;
+}
+
+.vermas:hover {
+    color: black
+}
+
+.vermas:active {
+    color: beige;
+}
+
+.vermas:visited {
+    color: beige;
+}
+
+.cajader {
+    background-color: var(--secondaryColor);
+    height: 100%;
+    width: 60px;
+    float: right;
+    border-radius: 10px;
+    border: solid 3px;
+    position: relative;
+}
+
+.cajader-medio {
+    background-color: var(--secondaryColor);
+    float: right;
+    height: 110px;
+    width: 115px;
+    position: relative;
+    top: 40%;
+    right: 30px;
+    border-radius: 10px;
+    border: solid;
+    border-right: 1px;
+}
+
+.ayuda {
+    font-size: large;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ayuda:link {
+    color: beige;
+}
+
+.ayuda:hover {
+    color: black
+}
+
+.ayuda:active {
+    color: beige;
+}
+
+.ayuda:visited {
+    color: beige;
+}
+
+/* ---------Centro-------- */
+/* Cards */
+#cards {
+    background-color: var(--secondaryColor);
+    margin: 2rem;
+    height: 15rem;
+    border: .1rem solid var(--black);
+}
+
+#card1Row {
+    border: .1rem solid var(--black);
+    background-color: var(--mainColor);
+    margin: 1.1rem;
+}
+
+/* Top left card */
+#card1Text, #card1Number {
+    margin-top: 0.9rem;
+    color: var(--black);
+    
+}
+
+#card1Text {
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+#card1Number {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    text-align: end;
+}
+
+/* Top right card */
+#card2Img {
+    width: 13rem;
+}
+
+#card2Title {
+    color: var(--black);
+    border: .1rem solid var(--black);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    background-color: var(--mainColor);
+}
+
+#card2Vl {
+    border-left: 1px solid var(--black);
+    height: 12.5rem;
+}
+
+/* Bottom card */
+#card3Title {
+    color: var(--black);
+    border: .1rem solid var(--black);
+    font-size: 1rem;  
+    background-color: var(--mainColor);
+}
+
+#card3Row {
+    margin-left: .3rem;
+    
+}
+
+#card3Date, #card3Transfer, #card3Number {
+    color: var(--black);
+}
+
+#card3Date {
+    font-size: 1.4rem;
+    padding-top: .9rem;
+    margin-top: .1rem;
+}
+
+#card3Transfer{
+    font-size: 1.75rem;
+    margin-top: .6rem
+}
+
+#card3Number {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    
+}
+
+#card3Border {
+    border: .1rem solid var(--black);
+    margin: .35rem;
+    margin-left: .25rem;
+    background-color: var(--mainColor);
+}
 
 /* ---------------Footer---------------- */
     /* Links */

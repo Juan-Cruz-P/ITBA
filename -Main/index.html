@@ -24,7 +24,7 @@
 </head>
 <body>
     <!-- Header -->
-    <div class="row" style="background-color: #3E8FD1;">
+    <div class="row" style="background-color: var(--secondaryColor);">
         <!-- Izquierda -->
         <div class="col-lg-3 col-md-4 col-sm-3 col-xs-1 ">
             <img id="logo" src="./images/logo.png">
@@ -34,7 +34,7 @@
             <h1> <img id="star" src="./images/star.png">
                 Cuenta #12AB</h1>
             <h4>CBU 010000235548894</h4>
-            <h2>$13143545</h2>
+            <h2>$ 123.456</h2>
         </div>
         <!-- Derecha -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-1 text-start d-flex " style="padding: 0.5rem;">
@@ -47,37 +47,186 @@
     </div>
 
     <!-- Front -->
-    <div class="row" style="background-color: green;">
+    <div id="background" class="row" style="background-color: gray;">
         <!-- Izquierda -->
         <div class="col-2 text-center border">
-            <ul class="list-group list-group-flush" style="font-size: 1.5rem;">
-                <li class="list-group-item">Buscador</li>
-                <li class="list-group-item">Seccion</li>
-                <li class="list-group-item">Seccion</li>
-                <li class="list-group-item">Seccion</li>
-                <li class="list-group-item">Seccion</li>
+            <nav class="navbar" style="background-color: var(--secondaryColor); width: 307px;">
+                <form class="container-fluid">
+                    <div class="input-group ">
+
+                        <!-- Lupa -->
+                        <span class="input-group-text " style="background-color:var(--lightBlue); border-color: var(--secondaryColor);" id="basic-addon1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-search " viewBox="0 0 16 16 ">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z "/>
+                            </svg>
+                        </span>
+
+                        <!-- Buscador -->
+                        <input type="text " class="form-control " style="background-color:var(--lightBlue); border-color: var(--secondaryColor);" placeholder=" " aria-label="a " aria-describedby="basic-addon1 ">
+                    </div>
+                </form>
+            </nav>
+
+            <!-- Secciones-->
+            <ul class="list-group list-group-flush " style="font-size: 1.5rem; width: 307px;">
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Sección></button></li>
+                <li id="seccion" class="list-group-item">
+                    <a class="ayuda" href="https://www.google.com/"> <img src="./images/interrogacion.png" style="width: 5rem;"><br>Ayuda</a>
+                </li>
             </ul>
         </div>
+
+        <!-- Centro -->
+        <div class="col-9 text-center" id="background">
+            <div class="row">
+                <!-- Cuentas -->
+                <div class="col-6">
+                    <article class="card" id="cards">
+                        <div class="card-body">
+                            
+                            <!-- Primer Cuenta -->
+                            <div>
+                                <div>
+                                    <div class="row" id="card1Row">
+                                    <div class="col-8"><p id="card1Text"><img id="star" src="./images/star.png"> Cuenta Corriente #12AB</p></div>
+                                    <div class="col-4"><p id="card1Number">$ 123.456</p></div>
+                                </div>
+                            </div>
+
+                            <!-- Segunda Cuenta -->
+                            <div>
+                                <div class="row" id="card1Row">
+                                    <div class="col-8">
+                                        <p id="card1Text">Cuenta Corriente #34CD</p>
+                                        <!-- <div id="card1Vl"></div>-->
+                                    </div>
+                                    <div class="col-4"><p id="card1Number">$ 789.101</p></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+            
+                <!-- Tarjetas -->
+                <div class="col-6">
+                    <article class="card" id="cards">
+                        <div class="card-body">
+                        <div>
+                            <div class="row">
+                                <div class="d-flex">
+
+                                    <!-- Tarjeta 1 -->
+                                    <div class="col-6">
+                                        <p id="card2Title">Debit Card</p>
+                                        <img src="./images/credit card.png" alt="Credit card" id="card2Img">   
+                                    </div>
+
+                                    <!-- Divisor -->
+                                    <div id="card2Vl"> </div>
+
+                                    <!-- Tarjeta 2 -->
+                                    <div class="col-6">
+                                        <p id="card2Title">Credit Card</p>
+                                        <img src="./images/credit card.png" alt="Credit card" id="card2Img">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Centrado de cuadro -->
+                <div class="col-3"></div>
+
+                <!-- Transferencias -->
+                <div class="col-6">
+                    <article class="card" id="cards">
+                        <div class="card-body">
+                            <div>
+
+                                <!-- Cuadro Ultimos Movimientos -->
+                                <div>
+                                    <div class="col-4">
+                                    <div class="row" id="card3Row">
+                                        <p id="card3Title"><img id="star" src="./images/star.png" style="width:1rem; height:auto;">Ultimos movimientos</p>
+                                    </div>  
+                                    </div>
+                                </div>
+
+                                <!-- Transferencia 1 -->
+                                <div>
+                                    <div class="row" id="card3Border">
+                                        <div class="col-2">
+                                            <p class id="card3Date">16/05</p>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <p class id="card3Transfer">Transferencia</p>                                 
+                                        </div>
+
+                                        <div class="col-4">
+                                            <p class id="card3Number">$ 123.456</p>     
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Transferencia 2 -->
+                                <div>
+                                    <div class="row" id="card3Border">
+                                        <div class="col-2">
+                                            <p class id="card3Date">17/06</p>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <p class id="card3Transfer">Transferencia</p>                                 
+                                        </div>
+
+                                        <div class="col-4">
+                                            <p class id="card3Number">$ 789.101</p>     
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
         
-        <!-- Centro Izq-->
-        <div class="col-3 text-center border" style="background-color: gray;">
-        </div>
-
-        <!-- Centro Cent-->
-        <div class="col-3 text-center border" style="background-color: gray;">
-        </div>
-
-        <!-- Centro Der-->
-        <div class="col-3 text-center border" style="background-color: gray;">
-        </div>
-
         <!-- Derecha -->
-        <div class="col-1 text-center border">
+        <div class="col-1 text-center ">
+            <div class="cajader">
+            <div class="cajader-medio">
+                <a>
+                    <br>
+                    <a class="vermas" href="https://www.google.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                        </svg>
+                        <!-- Revisar br, sintaxis extraña -->
+                        </br>VER MÁS
+                    </a>
+                </a>
+            </div>
+            </div>
         </div>
+
     </div>
 
     <!-- Footer -->
-    <div class="row" style="background-color: #3E8FD1;">
+    <div class="row" style="background-color: var(--secondaryColor);">
         <div class="col-12 text-center border">
             <p id="footer">
                 <a href="#">Términos y Condiciones del Sitio </a> |
