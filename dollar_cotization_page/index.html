@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>ITBANK Main</title>
     <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
 
@@ -94,34 +94,41 @@
                             <div class="row my-4">
                                 <div class="col-6">
                                     <p class="card-text">Compra</p>
+                                    <p id="oficialCompra"></p>
                                 </div>
                                 <div class="col-6">
                                     <p class="card-text">Venta</p>
+                                    <p id="oficialVenta"></p>
                                 </div>
                                 
                             </div>
                             <div class="row my-3">
                                 <p>variacion del precio</p>
+                                <p id="oficialVar"></p>
                             </div>
                             <div class="row my-3">
                                 <p>fecha y hora de ultima actualizacion</p>
+                                <p></p>
                             </div>   
                         </div>          
                 </div>
                 <div class="col-3">
                     <div class="card-body bg-primary m-4">
-                        <h5 class="card-title">Dolar Oficial</h5>
+                        <h5 class="card-title">Dolar Blue</h5>
                         <div class="row my-4">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
+                                <p id="blueCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
+                                <p id="blueVenta"></p>
                             </div>
                             
                         </div>
                         <div class="row my-3">
                             <p>variacion del precio</p>
+                            <p id="blueVar"></p>
                         </div>
                         <div class="row my-3">
                             <p>fecha y hora de ultima actualizacion</p>
@@ -130,18 +137,21 @@
                 </div>
                 <div class="col-3">
                     <div class="card-body bg-primary m-4">
-                        <h5 class="card-title">Dolar Oficial</h5>
+                        <h5 class="card-title">Dolar Soja</h5>
                         <div class="row my-4">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
+                                <p id="sojaCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
+                                <p id="sojaVenta"></p>
                             </div>
                             
                         </div>
                         <div class="row my-3">
                             <p>variacion del precio</p>
+                            <p id="sojaVar"></p>
                         </div>
                         <div class="row my-3">
                             <p>fecha y hora de ultima actualizacion</p>
@@ -152,18 +162,21 @@
             <div class="row">
                 <div class="col-3">
                     <div class="card-body bg-primary m-4">
-                        <h5 class="card-title">Dolar Oficial</h5>
+                        <h5 class="card-title">Dolar Bolsa</h5>
                         <div class="row my-4">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
+                                <p id="bolsaCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
+                                <p id="bolsaVenta"></p>
                             </div>
                             
                         </div>
                         <div class="row my-3">
                             <p>variacion del precio</p>
+                            <p id="bolsaVar"></p>
                         </div>
                         <div class="row my-3">
                             <p>fecha y hora de ultima actualizacion</p>
@@ -172,18 +185,21 @@
                 </div>
                 <div class="col-3">
                     <div class="card-body bg-primary m-4">
-                        <h5 class="card-title">Dolar Oficial</h5>
+                        <h5 class="card-title">Dolar Turista</h5>
                         <div class="row my-4">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
+                                <p id="turistaCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
+                                <p id="turistaVenta"></p>
                             </div>
                             
                         </div>
                         <div class="row my-3">
                             <p>variacion del precio</p>
+                            <p id="turistaVar"></p>
                         </div>
                         <div class="row my-3">
                             <p>fecha y hora de ultima actualizacion</p>
@@ -192,18 +208,21 @@
                 </div>
                 <div class="col-3">
                     <div class="card-body bg-primary m-4">
-                        <h5 class="card-title">Dolar Oficial</h5>
+                        <h5 class="card-title">Dolar Contado con Liqui</h5>
                         <div class="row my-4">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
+                                <p id="CCLCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
+                                <p id="CCLVenta"></p>
                             </div>
                             
                         </div>
                         <div class="row my-3">
                             <p>variacion del precio</p>
+                            <p id="CCLVar"></p>
                         </div>
                         <div class="row my-3">
                             <p>fecha y hora de ultima actualizacion</p>
@@ -247,6 +266,8 @@
                 <p class="text-center">© 2022 ITBANK</p>
             </footer>
         </div>
+
+        <script src="./script.js"></script>
 
 </body>
 
