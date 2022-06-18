@@ -1,0 +1,39 @@
+/* No CSS */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-body {
+    background-color: #5e7366cb;
+    height: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2rem 2rem 2rem 0;
+    border-style: solid;
+    border-left-color: #83998b62;
+    border-right-color: #5d7a693d;
+    border-top: #5e7366;
+    border-bottom: #5e7366;
+    overflow: hidden;
+}
+
+.card-title {
+    height: fit-content;
+    background-color: #92b19ddc;
+    border-radius: 1rem 0rem 1rem 0rem;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-left-color: #99b1a2;
+    border-right-color: #85b195;
+    border-top: #5e7366;
+    border-bottom: #5e7366;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/*# sourceMappingURL=custom.css.map */
