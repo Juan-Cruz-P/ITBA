@@ -5,11 +5,12 @@
 
 :root {
     --mainColor: #ffffff;
-    --secondaryColor: #3E8FD1;
+    --secondaryColor: #799ebd;
+    /* --secondaryColor: #3E8FD1; */
     --bgColor: #a6a6a6;
     --black: #000000;
     --white: #ffffff;
-    --lightBlue: rgb(103, 179, 241);
+    --lightBlue: #799ebd;
 }
 
 #background {
