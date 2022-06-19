@@ -23,6 +23,12 @@
 # Ignore code-workspaces
 *.code-workspace
 
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 # Extras
 .node_modules/
 

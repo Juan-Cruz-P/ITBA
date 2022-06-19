@@ -1,0 +1,13 @@
+Delfi y Brisa : Log in
+
+Juan, Cons y Gonza: Main
+Juan - footer y header
+Cons - costados
+Gonza - frente
+
+
+
+Problemas Tecnicos:
+No logramos resolver
+- cambiar de nombre a la carpeta '-Login' y 'docs'
+- gitignore pareciera no ignorar los archivos seleccionados
