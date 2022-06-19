@@ -31,7 +31,8 @@
     <div class="row border" style="background-color: var(--secondaryColor);">
         <!-- Izquierda -->
         <div class="col-lg-3 col-md-4 col-sm-3 col-xs-1 ">
-            <img id="logo" src="../img/logo.png">
+            <a href="./index.html"><img id="logo" src="../img/logo.png"></a>
+            
         </div>
         <!-- Centro -->
 
@@ -77,7 +78,7 @@
                 <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Agenda</button></li>
                 <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Seguros</button></li>
                 <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Pagos</button></li>
-                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Recargas</button></li>
+                <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Cotización del dolar</button></li>
                 <li id="seccion" class="list-group-item"><button type="button" id="botn" class="btn btn-primary">Inversiones</button></li>
                 <li id="seccion" class="list-group-item">
                     <a class="ayuda" href="#"> <img src="../img/ayuda.png" style="width: 5rem;"><br>Ayuda</a>
@@ -88,144 +89,152 @@
         <!-- Centro -->
         <div class="col-9 text-center">
             <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card-body m-4">
                         <h5 class="card-title">Dolar Oficial</h5>
-                        <div class="row my-4">
+                        <div class="row my-3">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
-                                <p id="oficialCompra"></p>
+                                <p class="fs-3" id="oficialCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
-                                <p id="oficialVenta"></p>
+                                <p class="fs-3" id="oficialVenta"></p>
                             </div>
 
                         </div>
-                        <div class="row my-3">
+                        <div class="row my-2">
                             <p class="var">variacion del precio</p>
-                            <p id="oficialVar"></p>
+                            <p class="fs-3" id="oficialVar"></p>
                         </div>
                         <div class="row my-3">
-                            <p>fecha y hora de ultima actualizacion</p>
-                            <p></p>
+                            
+                            <p class="fecha"></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card-body m-4">
                         <h5 class="card-title">Dolar Blue</h5>
-                        <div class="row my-4">
+                        <div class="row my-3">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
-                                <p id="blueCompra"></p>
+                                <p class="fs-3" id="blueCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
-                                <p id="blueVenta"></p>
+                                <p class="fs-3" id="blueVenta"></p>
                             </div>
 
                         </div>
-                        <div class="row my-3">
+                        <div class="row my-2">
                             <p class="var">variacion del precio</p>
-                            <p id="blueVar"></p>
+                            <p class="fs-3" id="blueVar"></p>
                         </div>
                         <div class="row my-3">
-                            <p>fecha y hora de ultima actualizacion</p>
+                            
+                            <p class="fecha"></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card-body m-4">
                         <h5 class="card-title">Dolar Soja</h5>
-                        <div class="row my-4">
+                        <div class="row my-3">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
-                                <p id="sojaCompra"></p>
+                                <p class="fs-3" id="sojaCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
-                                <p id="sojaVenta"></p>
+                                <p class="fs-3" id="sojaVenta"></p>
                             </div>
 
                         </div>
-                        <div class="row my-3">
+                        <div class="row my-2">
                             <p class="var">variacion del precio</p>
-                            <p id="sojaVar"></p>
+                            <p class="fs-3" id="sojaVar"></p>
                         </div>
                         <div class="row my-3">
-                            <p>fecha y hora de ultima actualizacion</p>
+                            
+                            <p class="fecha"></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                
+                <div class="col-4">
                     <div class="card-body m-4">
                         <h5 class="card-title">Dolar Bolsa</h5>
-                        <div class="row my-4">
+                        <div class="row my-3">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
-                                <p id="bolsaCompra"></p>
+                                <p class="fs-3" id="bolsaCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
-                                <p id="bolsaVenta"></p>
+                                <p class="fs-3" id="bolsaVenta"></p>
                             </div>
 
                         </div>
-                        <div class="row my-3">
+                        <div class="row my-2">
                             <p class="var">variacion del precio</p>
-                            <p id="bolsaVar"></p>
+                            <p class="fs-3" id="bolsaVar"></p>
                         </div>
                         <div class="row my-3">
-                            <p>fecha y hora de ultima actualizacion</p>
+                            
+                            <p class="fecha"></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                
+                <div class="col-4">
                     <div class="card-body m-4">
                         <h5 class="card-title">Dolar Turista</h5>
-                        <div class="row my-4">
+                        <div class="row my-3">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
-                                <p id="turistaCompra"></p>
+                                <p class="fs-3" id="turistaCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
-                                <p id="turistaVenta"></p>
+                                <p class="fs-3" id="turistaVenta"></p>
                             </div>
 
                         </div>
-                        <div class="row my-3">
+                        <div class="row my-2">
                             <p class="var">variacion del precio</p>
-                            <p id="turistaVar"></p>
+                            <p class="fs-3" id="turistaVar"></p>
                         </div>
                         <div class="row my-3">
-                            <p>fecha y hora de ultima actualizacion</p>
+                           <!----> 
+                            <p class="fecha"></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                
+                <div class="col-4">
                     <div class="card-body m-4">
                         <h5 class="card-title">Dolar Contado con Liqui</h5>
-                        <div class="row my-4">
+                        <div class="row my-3">
                             <div class="col-6">
                                 <p class="card-text">Compra</p>
-                                <p id="CCLCompra"></p>
+                                <p class="fs-3" id="CCLCompra"></p>
                             </div>
                             <div class="col-6">
                                 <p class="card-text">Venta</p>
-                                <p id="CCLVenta"></p>
+                                <p class="fs-3" id="CCLVenta"></p>
                             </div>
 
                         </div>
-                        <div class="row my-3">
+                        <div class="row my-2">
                             <p class="var">variacion del precio</p>
-                            <p id="CCLVar"></p>
+                            <p class="fs-3" id="CCLVar"></p>
                         </div>
                         <div class="row my-3">
-                            <p>fecha y hora de ultima actualizacion</p>
+                            
+                            <p class="fecha"></p>
                         </div>
                     </div>
                 </div>

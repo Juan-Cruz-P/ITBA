@@ -8,7 +8,7 @@ function importDolar(nombre, cb){
             while(data[i].casa.nombre != nombre){i++}
 
             let today = new Date();
-            let time = "Actualizado el: " + today.getDate() + "-" + today.getMonth() + "-" + today.getFullYear() + " a las " + today.getHours() + ":" + today.getMinutes();
+            let time = today.getDate() + "-" + today.getMonth() + "-" + today.getFullYear() + " a las " + today.getHours() + ":" + today.getMinutes();
 
             
             console.log(time)
@@ -16,7 +16,7 @@ function importDolar(nombre, cb){
             let compra = data[i].casa.compra
             let venta = data[i].casa.venta
             let variacion = data[i].casa.variacion
-            cb(nombre, compra, venta, variacion)
+            cb(nombre, compra, venta, variacion, time)
         })
 
 
@@ -29,7 +29,8 @@ importDolar('Dolar Bolsa', writeInHTML)
 importDolar('Dolar turista', writeInHTML)
 importDolar('Dolar Contado con Liqui', writeInHTML)
 
-function writeInHTML(name, compra, venta, variacion){
+function writeInHTML(name, compra, venta, variacion, time){
+    $(".fecha").text(time)
     switch(name) {
         case "Dolar Oficial":
             // Escribo los datos en las ID's del dolar oficial del HTML
@@ -41,7 +42,7 @@ function writeInHTML(name, compra, venta, variacion){
             // Escribo los datos en las ID's del dolar blue del HTML
             $("#blueCompra").text("$" + compra);
             $("#blueVenta").text("$" + venta);
-            $("#bluelVar").text(variacion + "%");
+            $("#blueVar").text(variacion + "%");
             break;
         case "Dolar Soja":
             // Escribo los datos en las ID's del dolar soja del HTML
@@ -69,6 +70,3 @@ function writeInHTML(name, compra, venta, variacion){
             break;
     }
 }
-// funcion callback
-// switch de todos los dolares
-// completa depende el tipo de dolar con los ID del HTML
